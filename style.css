@@ -109,6 +109,7 @@ section {
 /* VIDEO SECTION (FIX) */
 .video-section {
   padding: 80px 20px;
+  display:flex;
   text-align: center;
 }
 
