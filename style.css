@@ -166,3 +166,12 @@ footer {
 .hero-img img:hover {
   transform: scale(1.05);
 }
+@media (max-width: 900px) {
+  .video-box {
+    width: 100%;
+  }
+
+  .video-box video {
+    height: 220px;
+  }
+}
