@@ -72,6 +72,23 @@ footer {
   gap: 20px;
   margin-top: 20px;
 }
+.video-section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.video-box {
+  max-width: 800px;
+  margin: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+}
+
+.video-box video {
+  width: 100%;
+  display: block;
+}
 
 .icon {
   display: flex;
