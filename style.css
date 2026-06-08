@@ -131,8 +131,8 @@ footer {
 
 /* image */
 .hero-img img {
-  width: 320px;
-  height: 320px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid #7c3aed;
