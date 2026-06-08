@@ -11,7 +11,6 @@ body {
   text-align: center;
 }
 
-/* header */
 header {
   padding: 60px 20px;
 }
@@ -24,12 +23,10 @@ header p {
   opacity: 0.7;
 }
 
-/* sections */
 section {
   padding: 40px 20px;
 }
 
-/* social icons */
 .icons {
   display: flex;
   justify-content: center;
@@ -46,12 +43,10 @@ section {
   font-weight: bold;
 }
 
-/* Instagram */
 .instagram {
   background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
 }
 
-/* Telegram */
 .telegram {
   background: #229ED9;
 }
@@ -60,7 +55,6 @@ section {
   transform: scale(1.05);
 }
 
-/* footer */
 footer {
   margin-top: 60px;
   padding: 20px;
@@ -76,21 +70,34 @@ footer {
   padding: 80px 20px;
   text-align: center;
 }
- 
+
+.videos {
+  display: flex;
+  justify-content: center;
+  gap: 10px;  
+  flex-wrap: wrap;  
+  margin-top: 30px;
+}
 
 .video-box {
-  max-width: 800px;
-  margin: auto;
+  width: 420px;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+  box-shadow: 0 10px 35px rgba(0,0,0,0.4);
+  background: #111827;
+  transition: 0.3s;
+}
+
+.video-box:hover {
+  transform: translateY(-5px);
 }
 
 .video-box video {
   width: 100%;
+  height: 240px;  
+  object-fit: cover;
   display: block;
 }
-
 .icon {
   display: flex;
   align-items: center;
@@ -137,7 +144,6 @@ footer {
   gap: 40px;
 }
 
-/* text */
 .hero-text h1 {
   font-size: 50px;
 }
@@ -147,7 +153,6 @@ footer {
   color: #aaa;
 }
 
-/* image */
 .hero-img img {
   width: 250px;
   height: 250px;
